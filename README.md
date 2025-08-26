@@ -38,4 +38,4 @@
 
 ## 👤 Автор
 Алексей Павлов 
-[github.com/username](https://github.com/go-portfolio)
+[https://github.com/go-portfolio](https://github.com/go-portfolio)
