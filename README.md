@@ -10,12 +10,11 @@
 - **[concurrency-scraper](./concurrency-scraper/)** — Веб-скрейпер с использованием goroutines и worker pool  
 - **[grpc-service](./grpc-service/)** — gRPC микросервис (Protocol Buffers + Docker)  
 - **[cli-tool](./cli-tool/)** — CLI-утилита для анализа логов  
-- **[telegram-bot](./telegram-bot/)** — Telegram-бот для заметок / ToDo  
 - **[websocket-chat](https://github.com/go-portfolio/websocket-chat)** — Онлайн-чат с авторизацией и комнатами (WebSocket)  
-- **[http-middleware](./http-middleware/)** — Собственная HTTP middleware-библиотека  
-- **[go-service-profiling](./go-service-profiling/)** — Демонстрация профилирования CPU, памяти и задержек (pprof, trace)  
-- **[go-grpc-benchmark](./go-grpc-benchmark/)** — Нагрузочное тестирование и профилирование gRPC-сервисов (Prometheus + OpenTelemetry)  
-- **[order-pipeline](./order-pipeline/)** — Order Pipeline на Go + gRPC + Kafka + Redis  
+- **[http-middleware](https://github.com/go-portfolio/http-middleware/)** — Собственная HTTP middleware-библиотека  
+- **[go-service-profiling](https://github.com/go-portfolio/go-service-profiling/)** — Демонстрация профилирования CPU, памяти и задержек (pprof, trace)  
+- **[go-grpc-benchmark](https://github.com/go-portfolio/go-grpc-benchmark/)** — Нагрузочное тестирование и профилирование gRPC-сервисов (Prometheus + OpenTelemetry)  
+- **[order-pipeline](https://github.com/go-portfolio/order-pipeline/)** — Order Pipeline на Go + gRPC + Kafka + Redis  
 
 ---
 
@@ -44,7 +43,6 @@
 - **Prometheus / OpenTelemetry**  
 - **WebSocket**  
 - **JWT**  
-- **Telegram Bot API**
 
 ---
 
