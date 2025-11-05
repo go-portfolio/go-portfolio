@@ -8,8 +8,6 @@
 
 - **[rest-api](https://github.com/go-portfolio/rest-api)** — REST API с авторизацией (JWT) и PostgreSQL  
 - **[concurrency-scraper](./concurrency-scraper/)** — Веб-скрейпер с использованием goroutines и worker pool  
-- **[grpc-service](./grpc-service/)** — gRPC микросервис (Protocol Buffers + Docker)  
-- **[cli-tool](./cli-tool/)** — CLI-утилита для анализа логов  
 - **[websocket-chat](https://github.com/go-portfolio/websocket-chat)** — Онлайн-чат с авторизацией и комнатами (WebSocket)  
 - **[http-middleware](https://github.com/go-portfolio/http-middleware/)** — Собственная HTTP middleware-библиотека  
 - **[go-service-profiling](https://github.com/go-portfolio/go-service-profiling/)** — Демонстрация профилирования CPU, памяти и задержек (pprof, trace)  
@@ -27,7 +25,6 @@
 - Использование goroutines, каналов и context  
 - Реализация gRPC-сервисов  
 - Создание CLI-инструментов  
-- Интеграция с внешними API (Telegram)  
 - Разработка real-time сервисов (WebSocket)  
 - Написание собственных библиотек и middleware  
 - Анализ и оптимизация производительности (pprof, benchmark)
