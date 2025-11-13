@@ -28,6 +28,7 @@
 - Разработка real-time сервисов (WebSocket)  
 - Написание собственных библиотек и middleware  
 - Анализ и оптимизация производительности (pprof, benchmark)
+- Построение event-driven систем на Kafka и ClickHouse (пример: events-pipeline — поток обработки событий, Materialized View, Event Watcher)
 
 ---
 
@@ -35,6 +36,8 @@
 
 - **Go (1.22+)**  
 - **PostgreSQL**  
+- **ClickHouse (MergeTree, Kafka Engine, Materialized Views)**
+- **Kafka**
 - **Docker / Docker Compose**  
 - **gRPC / Protocol Buffers**  
 - **Prometheus / OpenTelemetry**  
@@ -51,4 +54,4 @@
 ```bash
 git clone https://github.com/go-portfolio/<project-name>.git
 cd <project-name>
-go run ./...
+```
