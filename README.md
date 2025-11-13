@@ -13,7 +13,7 @@
 - **[go-service-profiling](https://github.com/go-portfolio/go-service-profiling/)** — Демонстрация профилирования CPU, памяти и задержек (pprof, trace)  
 - **[go-grpc-benchmark](https://github.com/go-portfolio/go-grpc-benchmark/)** — Нагрузочное тестирование и профилирование gRPC-сервисов (Prometheus + OpenTelemetry)  
 - **[order-pipeline](https://github.com/go-portfolio/order-pipeline/)** — Order Pipeline на Go + gRPC + Kafka + Redis  
-
+- **[events-pipeline](https://github.com/go-portfolio/events-pipeline)** — Поток обработки событий с Kafka и ClickHouse: продюсер отправляет JSON-сообщения, consumer вставляет их в `my_table`, создаёт события в `events`, Materialized View автоматически переносит данные из Kafka Engine, а Events Watcher отслеживает новые события в реальном времени.
 ---
 
 ## 🎯 Цель
