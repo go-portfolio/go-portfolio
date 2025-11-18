@@ -13,7 +13,7 @@
 - **[order-pipeline](https://github.com/go-portfolio/order-pipeline/)** — Order Pipeline на Go + gRPC + Kafka + Redis  
 - **[events-pipeline](https://github.com/go-portfolio/events-pipeline)** — Поток обработки событий с Kafka и ClickHouse: продюсер отправляет JSON-сообщения, consumer вставляет их в `my_table`, создаёт события в `events`, Materialized View автоматически переносит данные из Kafka Engine, а Events Watcher отслеживает новые события в реальном времени.
 - **[events-pipeline](https://github.com/go-portfolio/events-pipeline)** — Поток обработки событий с Kafka и ClickHouse: продюсер отправляет JSON-сообщения, consumer вставляет их в `my_table`, создаёт события в `events`, Materialized View автоматически переносит данные из Kafka Engine, а Events Watcher отслеживает новые события в реальном времени.
-- **[go-neuro-and-or-xor](https://github.com/go-portfolio/go-neuro-and-or-xor)** — Многозадачная нейросеть на Go для вычисления `XOR`, `OR`, `AND`, показывающая иной алгоритм для вычисления простых операций с помощью нейросетей, реализацию многослойной нейронной сети (MLP) вычисления `XOR`, `OR`, `AND` на языке Go **с нуля**, без сторонних зависимостей.
+- **[go-neuro-and-or-xor](https://github.com/go-portfolio/go-neuro-and-or-xor)** — Многозадачная нейросеть на Go для вычисления `XOR`, `OR`, `AND`, показывающая иной алгоритм для вычисления простых операций с помощью нейросетей, реализацию многослойной нейронной сети (MLP) на языке Go **с нуля**, без сторонних зависимостей.
 Проект демонстрирует, как устроены слои, активации, обратное распространение ошибки (backpropagation) и различные методы обучения.
 Поддерживается **обучение одной сети на нескольких задачах одновременно**.
 ---
